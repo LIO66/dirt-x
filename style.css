@@ -1,0 +1,547 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;  
+}
+.logo img{
+    height: 100px;
+    width: 120px;
+    cursor: pointer;
+}
+.logo ul{
+    margin: 20px
+}
+.logo li{
+    list-style: none;
+    display: inline;
+    padding: 10px;  
+    cursor: pointer;
+}
+.logo .fb{
+    color: rgb(22, 112, 165);
+}
+.logo .insta{
+   color:rgb(247, 77, 77);
+
+}
+.logo .yout{
+    color: red;
+}
+/* navigate*/
+.navigate ul{
+    display: flex;
+    justify-content: space-evenly; 
+    background-color: rgb(27, 27, 27);    
+}
+.navigate li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    cursor: pointer;
+   
+}
+.navigate li:hover{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    transition-duration: 0.5s;
+}
+/*main area*/
+.main-area{
+    background-image:linear-gradient(45deg, rgba(0, 0, 0, 0.62), rgba(36, 34, 34, 0.58)), url(pic\ 1.jpg);
+    background-position:top;
+    background-size:cover;
+    width: 100%;
+    height: 90vh;
+}
+.main-area h1{
+    text-align: center;
+    font-size: 50px;
+    text-transform: capitalize;
+    padding-top: 50px;
+    color: rgb(255, 255, 255);
+    font-family: 'Uchen', serif;
+    letter-spacing: 3px;
+}
+
+/*events*/
+.events{
+    padding-bottom: 40px;
+}
+.events h1{
+    text-align: center;
+    padding: 20px;
+    font-weight: 800;
+    font-size: 50px;
+    text-transform:capitalize;
+    font-family: 'Zen Antique', serif;
+}
+.row{
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+    padding-top: 20px;
+}
+.row img{
+    height: 300px;
+    width:400px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    
+}
+.column h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: rgb(224, 75, 75);
+}
+.column p{
+    text-transform: capitalize;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.column button {
+     background-color: #ffffff; 
+     border: none;
+     text-transform: capitalize;
+     color: black;
+     padding: 16px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     transition-duration: 0.4s;
+     cursor: pointer;
+     border: 2px solid rgb(224, 75, 75);
+}
+  
+  .column button:hover {
+    background-color: rgb(224, 75, 75);
+    color: white;
+  }
+  /*quotes*/
+  .quotes{
+      background-image:linear-gradient(45deg, rgba(26, 26, 24, 0.62), rgba(36, 34, 34, 0.58)), url(pic3.jpeg);
+      background-size:cover;
+      background-position: top;
+      width: 100%;
+      height: 50vh;
+  }
+  .quotes h1{
+      text-align: center;
+      padding-top: 70px;
+      font-size: 50px;
+      color: #fff;
+      text-transform: capitalize;
+      font-family: 'Uchen', serif;
+      letter-spacing: 2px;
+      padding-bottom: 20px;
+  }
+  .quotes button{
+    background-color: transparent;
+    border: none;
+    text-transform: capitalize;
+    color: rgb(255, 253, 253);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+  }
+  .quotes button:hover {
+    background-color: rgb(224, 75, 75);
+    color: white;
+  }
+/*bikes*/
+.bike h1{
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+    text-transform: capitalize;
+    font-family: 'Zen Antique', serif;  
+}
+.bike img{
+    width: 600px;
+    height: 350px;
+}
+.grid {
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-gap: 10px;
+        padding: 10px;
+        text-align: center;
+        padding-bottom: 40px;
+      
+}
+      
+.grid h3 {
+       text-transform:uppercase;
+        text-align: center;
+        padding: 20px ;
+        font-size: 30px;
+        color: rgb(224, 75, 75);
+}
+/*social media*/
+.social-media{
+    background-color: rgb(0, 0, 0);
+    
+}
+.social-media h1{
+    letter-spacing: 5px;
+   text-transform: capitalize;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+    font-family:'Zen Antique', serif;   
+}
+.social-link{
+    padding: 10px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    font-size: 30px;
+    cursor: pointer;   
+}
+.social-link .fb{
+    color: #3B5998;
+    
+    border-radius: 50%;
+}
+.social-link .insta{
+   color:rgb(247, 77, 77);
+
+}
+.social-link .yout{
+    color: rgb(223, 0, 0);
+}
+.social-link .twit{
+   color: rgb(37, 134, 245);   
+}
+/*contact*/
+.contact h1{
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+    text-transform: capitalize;
+    font-family: 'Zen Antique', serif;    
+}
+.form-style-1 {
+	margin:10px auto;
+	max-width: 700px;
+	padding: 20px 12px 10px 20px;
+	font: 'Zen Antique', serif;   
+}
+.form-style-1 li {
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+.form-style-1 label{
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+	font-weight: bold;
+}
+.form-style-1 input[type=text], 
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea, 
+select{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border:1px solid #BEBEBE;
+	padding: 7px;
+	margin:0px;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;	
+}
+.form-style-1 input[type=text]:focus, 
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus, 
+.form-style-1 select:focus{
+	-moz-box-shadow: 0 0 8px #88D5E9;
+	-webkit-box-shadow: 0 0 8px #88D5E9;
+	box-shadow: 0 0 8px #88D5E9;
+	border: 1px solid #88D5E9;
+}
+.form-style-1 .field-divided{
+	width: 49%;
+}
+
+.form-style-1 .field-long{
+	width: 100%;
+}
+.form-style-1 .field-select{
+	width: 100%;
+}
+.form-style-1 .field-textarea{
+	height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+	background: #4B99AD;
+	padding: 8px 15px 8px 15px;
+	border: none;
+	color: #fff;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+	background: #4691A4;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+.form-style-1 .required{
+	color:red;
+}
+.footer{
+    background-color: black;
+    padding: 30px;
+}
+.footer p{
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: 'Zen Antique', serif;   
+}
+/*media query*/
+@media only screen and (max-width: 1100px) {
+    .main-area{
+        height: 75vh;
+    }
+    .row-img{
+        width: 250PX;
+        height: 200px;
+        padding: 0;
+    }
+   .row{ 
+       flex-direction: column; 
+    }
+    .grid{
+        grid-template-columns: none;
+    }
+    .bike img{
+        width: 500px;
+        height: 250px;
+  }
+  .contact h1{
+      font-size: 40px;
+  }
+  }
+  @media only screen and (max-width: 800px) {
+      .navigate li{
+          font-size: 15px;
+      }
+      .main-area h1{
+          font-size: 30px;
+      }
+      .main-area{
+          height: 70vh;
+      }
+    .row{ 
+        flex-direction: column;
+      
+    }
+      .row-img{
+         height: 200px;
+         width: 150px;
+         padding: 0;
+      }
+      .column h2{
+          font-size: 20px;
+          padding: 20px;
+      }
+      .events h1{
+          font-size: 30px;
+      }
+      .column button {
+        padding: 10px 25px;
+    }
+    .quotes{
+        height: 40vh;
+    }
+    .quotes h1{
+        font-size: 40px;
+        padding-top: 50px;
+    }
+    .grid{
+        grid-template-columns: none;
+    }
+    .bike h1{
+        font-size: 30px;
+        padding: 20px;
+    }
+    .bike img{
+        width: 386px;
+        height: 220px;
+
+  }
+  .social-media h1{
+    font-size: 40px;
+}
+.social-link{
+    font-size: 30px;
+}
+.contact h1{
+    font-size: 35px;
+}
+
+  @media only screen and (max-width: 600px) {
+      .logo img{
+          height: 80px;
+          width: 90px;
+         
+      }
+      .navigate li{
+        font-size: 15px;
+    }
+    .main-area h1{
+        font-size: 25px;
+    }
+    .main-area{
+        height: 50vh;
+    }
+    .events h1{
+        font-size: 30px;
+        padding: 15px;
+    }
+      
+    .row{ 
+        flex-direction: column;
+    }
+    .row-img{
+        height: 150px;
+        width: 100px;
+        padding: 0;
+     }
+     .column h2 {
+        font-size: 18px;
+    }
+    .column p{
+        font-size: 18px;
+    }
+    .column button {
+        padding: 10px 25px;
+    }
+    .quotes{
+        height: 35vh;
+    }
+    .quotes h1{
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    .quotes button{
+    padding: 10px 25px;
+        font-size: 15px;
+    }
+    .grid{
+        grid-template-columns: none;
+    }
+    .bike img{
+        width: 400px;
+        height: 250px;
+
+  }
+  .social-media h1{
+      font-size: 30px;
+  }
+  .social-link{
+      font-size: 20px;
+  }
+  .contact h1{
+    font-size: 30px;
+}
+
+
+}
+@media only screen and (max-width: 400px) {
+     .main-area h1{
+         font-size: 20px;
+     }
+     .main-area{
+         height: 40vh;
+     }
+     .events h1{
+        font-size: 25px;
+        padding: 10px;
+    }
+    .row{ 
+        flex-direction: column;
+    }
+    .row-img{
+        width: 150px;
+         height: 80px;
+         padding: 0;
+      }
+      
+      .column h2{
+          font-size:15px ;
+      }
+      .column p{
+          font-size: 10px;
+      }
+      .column button {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    .quotes{
+        height: 35vh;
+    }
+    .quotes h1{
+        font-size: 20px;
+        padding: 30px;
+    }
+    .quotes button{
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    .grid{
+        grid-template-columns: none;
+    }
+    .bike img{
+        width: 280px;
+        height: 150px;
+  }
+  .social-media h1{
+    font-size: 25px;
+}
+.social-link{
+    font-size: 15px;
+}
+.contact h1{
+    font-size: 30px;
+}
+
+
+}
